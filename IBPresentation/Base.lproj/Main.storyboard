@@ -100,6 +100,9 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYe-LQ-Vj5">
                                 <rect key="frame" x="937" y="681" width="57" height="57"/>
                                 <state key="normal" image="rea"/>
+                                <connections>
+                                    <segue destination="Vsy-Nj-fmG" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="Vk8-4n-91s"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,6 +131,91 @@ in Interface Builder</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CK-rY-EWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="633" y="245"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4YJ-No-pSc">
+            <objects>
+                <viewController id="Vsy-Nj-fmG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ksj-bW-3EC"/>
+                        <viewControllerLayoutGuide type="bottom" id="bkT-Yu-FgZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7xB-fJ-bDD" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agenda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3m-c9-jOS">
+                                <rect key="frame" x="65" y="110" width="136.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X9T-6f-H3g">
+                                <rect key="frame" x="65" y="248" width="833" height="85"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vJ1-sH-78f">
+                                        <rect key="frame" x="0.0" y="0.0" width="833" height="33"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="@IBDesignable and @BInspectable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFS-kh-T3h">
+                                                <rect key="frame" x="0.0" y="0.0" width="416" height="33"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="- How to design in Interface Builder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9h3-Ed-vcB">
+                                                <rect key="frame" x="424" y="0.0" width="409" height="33"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mar-q1-1jw">
+                                        <rect key="frame" x="0.0" y="53" width="833" height="33"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Protocol-oriented programming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzN-aO-zRn">
+                                                <rect key="frame" x="0.0" y="0.0" width="368" height="33"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="- How to Implement a flexible UI Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tO-Rr-wOD">
+                                                <rect key="frame" x="376" y="0.0" width="457" height="33"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOz-QO-CkV">
+                                <rect key="frame" x="937" y="681" width="57" height="57"/>
+                                <state key="normal" image="rea"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X9T-6f-H3g" firstAttribute="top" secondItem="t3m-c9-jOS" secondAttribute="bottom" constant="90" id="4in-fE-xyQ"/>
+                            <constraint firstItem="t3m-c9-jOS" firstAttribute="leading" secondItem="7xB-fJ-bDD" secondAttribute="leadingMargin" constant="45" id="HcD-Gh-AXt"/>
+                            <constraint firstItem="bkT-Yu-FgZ" firstAttribute="top" secondItem="KOz-QO-CkV" secondAttribute="bottom" constant="30" id="Xm2-sw-ZVf"/>
+                            <constraint firstItem="X9T-6f-H3g" firstAttribute="leading" secondItem="t3m-c9-jOS" secondAttribute="leading" id="dbh-5S-pu5"/>
+                            <constraint firstItem="t3m-c9-jOS" firstAttribute="top" secondItem="Ksj-bW-3EC" secondAttribute="bottom" constant="90" id="sxy-e0-tQE"/>
+                            <constraint firstAttribute="trailing" secondItem="KOz-QO-CkV" secondAttribute="trailing" constant="30" id="vch-rR-pFv"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="akr-4h-B7H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1781" y="245"/>
         </scene>
     </scenes>
     <resources>
