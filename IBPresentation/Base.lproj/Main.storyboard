@@ -1,28 +1,139 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZOB-Sx-kzA">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="HAi-7q-vgB">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IBPresentation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZOB-Sx-kzA" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="in4-z4-Rk7"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Xd-JT-gCr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                    <view key="view" contentMode="scaleToFill" id="RVm-ss-FQw" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYd-rO-Q7h">
+                                <rect key="frame" x="65" y="180" width="914.5" height="119.5"/>
+                                <string key="text">Prototype and design App Store ready app 
+in Interface Builder</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jake Lin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxC-pc-L9g">
+                                <rect key="frame" x="65" y="419" width="96" height="33"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer, realestate.com.au" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGG-4x-jym">
+                                <rect key="frame" x="176" y="419" width="386" height="33"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0Tb-fW-vkg">
+                                <rect key="frame" x="65" y="482" width="266" height="150"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="kMD-AB-55Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="239" height="40"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleAspectFit" image="github" translatesAutoresizingMaskIntoConstraints="NO" id="4dw-Lq-jFg">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="fVl-H4-Qev"/>
+                                                    <constraint firstAttribute="width" constant="40" id="is0-2t-N2R"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="github.com/JakeLin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaE-6c-ahn">
+                                                <rect key="frame" x="55" y="0.0" width="184" height="40"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <color key="textColor" white="1" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="288-xn-DYb">
+                                        <rect key="frame" x="0.0" y="55" width="266" height="40"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleAspectFit" image="dribbble" translatesAutoresizingMaskIntoConstraints="NO" id="Rsh-EE-qtv">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="6rs-28-85e"/>
+                                                    <constraint firstAttribute="width" constant="40" id="L42-al-iHF"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="dribbble.com/Jake_Lin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qn-Dv-NDV">
+                                                <rect key="frame" x="55" y="0.0" width="211" height="40"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <color key="textColor" white="1" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="nAj-35-EdQ">
+                                        <rect key="frame" x="0.0" y="110" width="155" height="40"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleAspectFit" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="JAz-lf-iQp">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="EK5-WB-wVw"/>
+                                                    <constraint firstAttribute="width" constant="40" id="TtN-NU-fwT"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="@Jake_Lin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKL-aj-YUr">
+                                                <rect key="frame" x="55" y="0.0" width="100" height="40"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <color key="textColor" white="1" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYe-LQ-Vj5">
+                                <rect key="frame" x="937" y="681" width="57" height="57"/>
+                                <state key="normal" image="rea"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YYd-rO-Q7h" firstAttribute="top" secondItem="RVm-ss-FQw" secondAttribute="topMargin" constant="180" id="G83-o7-Fnw"/>
+                            <constraint firstItem="0Tb-fW-vkg" firstAttribute="top" secondItem="oGG-4x-jym" secondAttribute="bottom" constant="30" id="HD2-RB-EWb"/>
+                            <constraint firstAttribute="trailing" secondItem="DYe-LQ-Vj5" secondAttribute="trailing" constant="30" id="NKs-Vj-I0S"/>
+                            <constraint firstItem="0Tb-fW-vkg" firstAttribute="leading" secondItem="QxC-pc-L9g" secondAttribute="leading" id="XWj-XY-nbb"/>
+                            <constraint firstItem="QxC-pc-L9g" firstAttribute="top" secondItem="YYd-rO-Q7h" secondAttribute="bottom" constant="120" id="XY2-84-gBF"/>
+                            <constraint firstItem="1Xd-JT-gCr" firstAttribute="top" secondItem="DYe-LQ-Vj5" secondAttribute="bottom" constant="30" id="e3q-4d-EBb"/>
+                            <constraint firstItem="QxC-pc-L9g" firstAttribute="leading" secondItem="YYd-rO-Q7h" secondAttribute="leading" id="fGk-cG-k39"/>
+                            <constraint firstItem="oGG-4x-jym" firstAttribute="leading" secondItem="QxC-pc-L9g" secondAttribute="trailing" constant="15" id="hed-ga-mUm"/>
+                            <constraint firstItem="YYd-rO-Q7h" firstAttribute="leading" secondItem="RVm-ss-FQw" secondAttribute="leadingMargin" constant="45" id="iHi-1E-j3R"/>
+                            <constraint firstItem="oGG-4x-jym" firstAttribute="baseline" secondItem="QxC-pc-L9g" secondAttribute="baseline" id="iJf-x2-0Is"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="1366" height="1024"/>
+                    <size key="freeformSize" width="1024" height="768"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4CK-rY-EWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="633" y="245"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dribbble" width="60" height="60"/>
+        <image name="github" width="63" height="60"/>
+        <image name="rea" width="57" height="57"/>
+        <image name="twitter" width="63" height="63"/>
+    </resources>
 </document>
