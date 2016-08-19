@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Page3ViewController: UIViewController {
+class DesignerNewsViewController: UIViewController {
   
   @IBOutlet var webView: UIWebView!
   
