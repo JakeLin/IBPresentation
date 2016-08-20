@@ -14,6 +14,7 @@
 		AEEB24551D5C70C1008345F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEB24541D5C70C1008345F5 /* Assets.xcassets */; };
 		AEEB24581D5C70C1008345F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEB24561D5C70C1008345F5 /* LaunchScreen.storyboard */; };
 		AEF900ED1D5E011E008C146E /* DesignerNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF900EC1D5E011E008C146E /* DesignerNewsViewController.swift */; };
+		AEFB091B1D688C8F008354E2 /* PokeBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB091A1D688C8F008354E2 /* PokeBallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AEEB24571D5C70C1008345F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEEB24591D5C70C1008345F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEF900EC1D5E011E008C146E /* DesignerNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignerNewsViewController.swift; sourceTree = "<group>"; };
+		AEFB091A1D688C8F008354E2 /* PokeBallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeBallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				AEEB244D1D5C70C0008345F5 /* AppDelegate.swift */,
 				AEF900EC1D5E011E008C146E /* DesignerNewsViewController.swift */,
 				AE541B961D65A3C3008B0613 /* ProtocolsViewController.swift */,
+				AEFB091A1D688C8F008354E2 /* PokeBallViewController.swift */,
 				AEEB24511D5C70C0008345F5 /* Main.storyboard */,
 				AEEB24541D5C70C1008345F5 /* Assets.xcassets */,
 				AEEB24561D5C70C1008345F5 /* LaunchScreen.storyboard */,
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFB091B1D688C8F008354E2 /* PokeBallViewController.swift in Sources */,
 				AEEB244E1D5C70C0008345F5 /* AppDelegate.swift in Sources */,
 				AEF900ED1D5E011E008C146E /* DesignerNewsViewController.swift in Sources */,
 				AE541B971D65A3C3008B0613 /* ProtocolsViewController.swift in Sources */,
