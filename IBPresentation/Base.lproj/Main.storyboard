@@ -105,11 +105,27 @@ in Interface Builder</string>
                                     <segue destination="Vsy-Nj-fmG" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="Vk8-4n-91s"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="DevWorldLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TNX-WQ-BUF">
+                                <rect key="frame" x="65" y="681" width="57" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="Xjf-PL-xXo"/>
+                                    <constraint firstAttribute="height" constant="57" id="bMM-hJ-qUE"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/dev/world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUg-7q-4Gd">
+                                <rect key="frame" x="137" y="693.5" width="122.5" height="32.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="TNX-WQ-BUF" firstAttribute="leading" secondItem="JAz-lf-iQp" secondAttribute="leading" id="5RS-bI-ffL"/>
                             <constraint firstItem="YYd-rO-Q7h" firstAttribute="top" secondItem="RVm-ss-FQw" secondAttribute="topMargin" constant="180" id="G83-o7-Fnw"/>
                             <constraint firstItem="0Tb-fW-vkg" firstAttribute="top" secondItem="oGG-4x-jym" secondAttribute="bottom" constant="30" id="HD2-RB-EWb"/>
+                            <constraint firstItem="bUg-7q-4Gd" firstAttribute="centerY" secondItem="TNX-WQ-BUF" secondAttribute="centerY" id="Hhp-VM-4QO"/>
+                            <constraint firstItem="DYe-LQ-Vj5" firstAttribute="centerY" secondItem="TNX-WQ-BUF" secondAttribute="centerY" id="KBe-ZS-FA5"/>
                             <constraint firstAttribute="trailing" secondItem="DYe-LQ-Vj5" secondAttribute="trailing" constant="30" id="NKs-Vj-I0S"/>
                             <constraint firstItem="0Tb-fW-vkg" firstAttribute="leading" secondItem="QxC-pc-L9g" secondAttribute="leading" id="XWj-XY-nbb"/>
                             <constraint firstItem="QxC-pc-L9g" firstAttribute="top" secondItem="YYd-rO-Q7h" secondAttribute="bottom" constant="120" id="XY2-84-gBF"/>
@@ -118,6 +134,7 @@ in Interface Builder</string>
                             <constraint firstItem="oGG-4x-jym" firstAttribute="leading" secondItem="QxC-pc-L9g" secondAttribute="trailing" constant="15" id="hed-ga-mUm"/>
                             <constraint firstItem="YYd-rO-Q7h" firstAttribute="leading" secondItem="RVm-ss-FQw" secondAttribute="leadingMargin" constant="45" id="iHi-1E-j3R"/>
                             <constraint firstItem="oGG-4x-jym" firstAttribute="baseline" secondItem="QxC-pc-L9g" secondAttribute="baseline" id="iJf-x2-0Is"/>
+                            <constraint firstItem="bUg-7q-4Gd" firstAttribute="leading" secondItem="TNX-WQ-BUF" secondAttribute="trailing" constant="15" id="kbG-oA-xDO"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
@@ -2356,6 +2373,7 @@ in Interface Builder</string>
         <image name="Apple_1_Infinite_Loop" width="1632" height="1224"/>
         <image name="Corner Radius" width="894" height="575"/>
         <image name="CornerDesignable" width="894" height="575"/>
+        <image name="DevWorldLogo" width="513" height="513"/>
         <image name="Ken" width="400" height="266"/>
         <image name="NSView" width="894" height="575"/>
         <image name="POP" width="1096" height="530"/>
