@@ -1,12 +1,31 @@
 PODS:
-  - IBAnimatable (2.6)
+  - IBAnimatable (2.7)
+  - Material (2.0.0)
 
 DEPENDENCIES:
-  - IBAnimatable
+  - IBAnimatable (from `https://github.com/IBAnimatable/IBAnimatable.git`, branch `master`)
+  - Material (from `https://github.com/CosmicMind/Material.git`, branch `development`)
+
+EXTERNAL SOURCES:
+  IBAnimatable:
+    :branch: master
+    :git: https://github.com/IBAnimatable/IBAnimatable.git
+  Material:
+    :branch: development
+    :git: https://github.com/CosmicMind/Material.git
+
+CHECKOUT OPTIONS:
+  IBAnimatable:
+    :commit: 79f79c667442ac433e4bf179481191e48ea8eaaa
+    :git: https://github.com/IBAnimatable/IBAnimatable.git
+  Material:
+    :commit: f4688bb97f199d47f8337da4ad4314cf3425c255
+    :git: https://github.com/CosmicMind/Material.git
 
 SPEC CHECKSUMS:
-  IBAnimatable: ec3619cfe2878ad0ad3b9423a7f984829c166db6
+  IBAnimatable: baa9b37d0326de969836e9215f73cc377a5a84a6
+  Material: 61dcd49507c32d07c1557267ec360ce35bd0b1c5
 
-PODFILE CHECKSUM: cf9464ec6f277a273205862a12ca18c78e3bdff8
+PODFILE CHECKSUM: df71d4f16e7b4aca2ce0e0d0115014cbf5d25b0c
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
