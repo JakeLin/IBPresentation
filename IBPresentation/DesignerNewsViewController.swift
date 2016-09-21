@@ -14,7 +14,7 @@ class DesignerNewsViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let url = NSURL(string: "http://design.lc/designer-news-statistics-2015/")!
-    webView.loadRequest(NSURLRequest(URL: url))
+    let url = URL(string: "http://design.lc/designer-news-statistics-2015/")!
+    webView.loadRequest(URLRequest(url: url))
   }
 }

@@ -13,9 +13,9 @@ class ProtocolsViewController: UIViewController {
   
   @IBOutlet var animatableButton: AnimatableButton!
   
-  @IBAction func animatableButtonDidTap(sender: AnyObject) {
+  @IBAction func animatableButtonDidTap(_ sender: AnyObject) {
     
-    animatableButton.squeeze()
+    animatableButton.squash(repeatCount: 1)
   }
   
 }

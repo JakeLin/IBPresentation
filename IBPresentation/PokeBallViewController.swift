@@ -13,16 +13,15 @@ class PokeBallViewController: UIViewController {
   @IBOutlet var blurView: AnimatableView!
   @IBOutlet var pokeBallButton: AnimatableButton!
   
-  @IBAction func pokeBallDidTap(sender: AnyObject) {
-    pokeBallButton.configAnimatableProperties()
-    pokeBallButton.x = 0
-    pokeBallButton.y = blurView.frame.origin.y - pokeBallButton.frame.origin.y
+  @IBAction func pokeBallDidTap(_ sender: AnyObject) {
+    pokeBallButton.configureAnimatableProperties()
+    let x: Double = 0
+    let y: Double = Double(blurView.frame.origin.y - pokeBallButton.frame.origin.y)
     
-    pokeBallButton.moveBy {
-      self.blurView.flipX {
-        self.blurView.fadeOut {
-          self.pokeBallButton.repeatCount = 3
-          self.pokeBallButton.squeeze()
+    pokeBallButton.moveBy(x: x, y: y) {
+      self.blurView.flip(axis: .x) {
+        self.blurView.fade(.out) {
+          self.pokeBallButton.squash(repeatCount: 3)
         }
       }
     }
