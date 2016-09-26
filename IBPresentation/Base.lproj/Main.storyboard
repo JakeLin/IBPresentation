@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AeW-4V-Enr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="89C-ll-tbp">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -1353,7 +1353,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i5G-2f-Vsa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2024" y="3009"/>
+            <point key="canvasLocation" x="613" y="4601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IHR-Kh-RnL">
@@ -1436,7 +1436,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69f-A0-8DD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="625" y="3943"/>
+            <point key="canvasLocation" x="3287" y="4601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QhZ-gT-voQ">
@@ -1523,7 +1523,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DMZ-v9-1I8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1781" y="3943"/>
+            <point key="canvasLocation" x="3967" y="4601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fKu-7L-8E1">
@@ -1616,7 +1616,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o80-Ic-HMq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2943" y="3943"/>
+            <point key="canvasLocation" x="4651" y="4601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="si2-Gi-2wY">
@@ -1714,7 +1714,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oc2-fG-Pqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4113" y="3943"/>
+            <point key="canvasLocation" x="5259" y="4534"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qGK-ds-fMf">
@@ -1778,7 +1778,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38i-DV-Jjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2943" y="3009"/>
+            <point key="canvasLocation" x="1290" y="4601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="v95-pe-7bC">
@@ -1847,7 +1847,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZY-Ym-S1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4651" y="3109"/>
+            <point key="canvasLocation" x="1960" y="4601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="17w-By-h9Q">
@@ -1921,7 +1921,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rJx-pe-nwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5882" y="3009"/>
+            <point key="canvasLocation" x="2625" y="4601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NH0-Nk-CyI">
@@ -1943,7 +1943,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TF0-WF-gxq">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="CI7-pX-exL" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="kLJ-Jg-fvb"/>
+                                    <segue destination="CI7-pX-exL" kind="show" id="ETT-yX-etV"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="POP" translatesAutoresizingMaskIntoConstraints="NO" id="N8z-cu-PcT" customClass="AnimatableImageView" customModule="IBAnimatable">
@@ -2004,7 +2004,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNw-EE-UJj">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="IWT-Q7-SMk" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="kY4-UV-Ymp"/>
+                                    <segue destination="IWT-Q7-SMk" kind="show" id="jMf-3z-RZF"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3BB-8T-Up9">
@@ -2142,7 +2142,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxb-tc-jAI">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="Cf1-i6-Q1Z" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="nwl-Tz-ILi"/>
+                                    <segue destination="Cf1-i6-Q1Z" kind="show" id="zA7-kc-71m"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="cmd + v" translatesAutoresizingMaskIntoConstraints="NO" id="vmf-rY-EyG" customClass="AnimatableImageView" customModule="IBAnimatable">
@@ -2212,7 +2212,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66I-Lh-wlL">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="Qac-qf-2Cp" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="u2O-p7-aQI"/>
+                                    <segue destination="Qac-qf-2Cp" kind="show" id="9oN-qF-G88"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2268,7 +2268,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-TL-jCE">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="PcR-Il-BwI" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="sk5-oa-RjR"/>
+                                    <segue destination="PcR-Il-BwI" kind="show" id="D3p-pX-Trl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2324,7 +2324,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzW-fp-DFT">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="ykT-7w-t9t" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="PIh-jZ-xoc"/>
+                                    <segue destination="ykT-7w-t9t" kind="show" id="zJg-FT-uW1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2380,7 +2380,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fP-37-qZL">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="nct-ag-Zhp" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="Plk-bp-Rd6"/>
+                                    <segue destination="nct-ag-Zhp" kind="show" id="z7N-GU-Cmc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2436,7 +2436,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXf-Gc-cuf">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="ihg-s9-lQm" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="rjh-h1-bKB"/>
+                                    <segue destination="ihg-s9-lQm" kind="show" id="XRb-wY-lPa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2460,6 +2460,102 @@ in Interface Builder</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jxt-B2-TY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5343" y="2325"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wqt-fe-MML">
+            <objects>
+                <viewController id="in4-3d-q9u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VgU-gm-2Al"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yt6-oU-qM5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MXH-EW-Xsn" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material Design" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4G-GQ-b4Q">
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="Google-Inbox" translatesAutoresizingMaskIntoConstraints="NO" id="FpQ-qr-oWZ">
+                                <frame key="frameInset" minX="-6" minY="187" width="806" height="481"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJG-NQ-ADT">
+                                <state key="normal" image="rea"/>
+                                <connections>
+                                    <segue destination="pCc-eC-0qd" kind="show" id="lXc-7g-Qkx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mJG-NQ-ADT" secondAttribute="trailing" constant="30" id="5yh-bs-rc0"/>
+                            <constraint firstItem="q4G-GQ-b4Q" firstAttribute="leading" secondItem="MXH-EW-Xsn" secondAttribute="leadingMargin" constant="45" id="dQ3-tI-JFu"/>
+                            <constraint firstItem="q4G-GQ-b4Q" firstAttribute="top" secondItem="VgU-gm-2Al" secondAttribute="bottom" constant="30" id="eQV-Yf-e88"/>
+                            <constraint firstItem="Yt6-oU-qM5" firstAttribute="top" secondItem="mJG-NQ-ADT" secondAttribute="bottom" constant="30" id="vAy-aM-mhJ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                <color key="value" red="0.17647058823529413" green="0.37254901960784315" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eiu-3o-kmC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2625" y="3008.59375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fDs-tf-wLd">
+            <objects>
+                <viewController id="pCc-eC-0qd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gDO-uZ-2Ep"/>
+                        <viewControllerLayoutGuide type="bottom" id="e0r-kb-fsW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rv6-cl-gNA" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material Design" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvK-fp-O1a">
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66w-Se-dLP">
+                                <state key="normal" image="rea"/>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="Google-Inbox" translatesAutoresizingMaskIntoConstraints="NO" id="YwF-Ac-XdI">
+                                <frame key="frameInset" minX="-6" minY="187" width="806" height="481"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ko2-gn-RMc">
+                                <frame key="frameInset" minX="455" minY="285" width="308" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1764705882" green="0.37254901959999998" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bvK-fp-O1a" firstAttribute="top" secondItem="gDO-uZ-2Ep" secondAttribute="bottom" constant="30" id="Fvx-zC-5v6"/>
+                            <constraint firstItem="bvK-fp-O1a" firstAttribute="leading" secondItem="rv6-cl-gNA" secondAttribute="leadingMargin" constant="45" id="NLs-B1-KDu"/>
+                            <constraint firstItem="e0r-kb-fsW" firstAttribute="top" secondItem="66w-Se-dLP" secondAttribute="bottom" constant="30" id="XF5-bE-DWD"/>
+                            <constraint firstAttribute="trailing" secondItem="66w-Se-dLP" secondAttribute="trailing" constant="30" id="lI7-Vh-y1n"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                <color key="value" red="0.1764705882" green="0.37254901959999998" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZlK-9Y-gF3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3286.5234375" y="3008.59375"/>
         </scene>
         <!--Protocols View Controller-->
         <scene sceneID="GId-iY-tk8">
@@ -2743,7 +2839,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bw-YC-YgO">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="AeW-4V-Enr" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="pSU-6p-SQx"/>
+                                    <segue destination="AeW-4V-Enr" kind="show" id="fGD-YX-mK4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2790,7 +2886,7 @@ in Interface Builder</string>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffJ-wR-zvY">
                                 <state key="normal" image="rea"/>
                                 <connections>
-                                    <segue destination="OEA-E5-yRT" kind="custom" customClass="PresentFadeWithDismissInteractionSegue" customModule="IBAnimatable" id="8tR-QK-lO3"/>
+                                    <segue destination="nB4-DD-5El" kind="show" id="Giu-gH-3C2"/>
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tB3-0P-U2I" customClass="AnimatableView" customModule="IBAnimatable">
@@ -2878,6 +2974,7 @@ in Interface Builder</string>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
+                    <navigationItem key="navigationItem" id="vBa-8v-CVK"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="blurView" destination="tB3-0P-U2I" id="ghG-CX-lqv"/>
@@ -2950,7 +3047,7 @@ in Interface Builder</string>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n8o-YU-qvH">
                                         <color key="onTintColor" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <segue destination="qhk-jf-FFv" kind="custom" customClass="PresentTurnSegue" customModule="IBAnimatable" id="pf4-Me-AXv"/>
+                                            <segue destination="qhk-jf-FFv" kind="show" id="vtw-te-Btt"/>
                                         </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-ih-W0T">
@@ -3088,8 +3185,8 @@ in Interface Builder</string>
                         </subviews>
                         <color key="backgroundColor" red="0.72941176470000002" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="3iC-9P-87h" firstAttribute="top" secondItem="Co5-Sh-Rcr" secondAttribute="bottom" constant="30" id="3jD-pm-Sif"/>
                             <constraint firstAttribute="trailing" secondItem="Co5-Sh-Rcr" secondAttribute="trailing" constant="30" id="GKM-fL-1v9"/>
-                            <constraint firstItem="3iC-9P-87h" firstAttribute="top" secondItem="Co5-Sh-Rcr" secondAttribute="bottom" constant="30" id="MO0-B2-V6v"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
@@ -3102,6 +3199,57 @@ in Interface Builder</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ia8-US-AsS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4651" y="1637"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PV2-6R-geH">
+            <objects>
+                <viewController id="nB4-DD-5El" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gr4-Bx-TkG"/>
+                        <viewControllerLayoutGuide type="bottom" id="hHx-OE-LRL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YvS-pD-dg2" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dm3-CH-1RB">
+                                <state key="normal" image="rea"/>
+                                <connections>
+                                    <segue destination="in4-3d-q9u" kind="show" id="mhx-Sj-YLd"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BlJ-uq-N63">
+                                <frame key="frameInset" minX="377" minY="180" width="271" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="Xcode_icon" translatesAutoresizingMaskIntoConstraints="NO" id="n0t-y8-uxT">
+                                        <frame key="frameInset" minX="8" width="256" height="256"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Demo time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEf-mU-346">
+                                        <frame key="frameInset" minY="256" width="271" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72941176470000002" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dm3-CH-1RB" secondAttribute="trailing" constant="30" id="BWc-rJ-I95"/>
+                            <constraint firstItem="hHx-OE-LRL" firstAttribute="top" secondItem="dm3-CH-1RB" secondAttribute="bottom" constant="30" id="JdP-3m-j0k"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                <color key="value" red="0.72941176470000002" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9j-WO-asJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1960" y="3009"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="adh-8b-std">
@@ -3860,67 +4008,6 @@ in Interface Builder</string>
             </objects>
             <point key="canvasLocation" x="3287" y="1637"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="owE-Qx-wUY">
-            <objects>
-                <viewController id="7ef-p2-dho" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YJw-EI-LA6"/>
-                        <viewControllerLayoutGuide type="bottom" id="YLc-7o-wCR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="12E-9R-jtr" customClass="AnimatableView" customModule="IBAnimatable">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Takeaways" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyq-83-D3w">
-                                <frame key="frameInset" minX="63" minY="110" width="189" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="XrL-ES-QjR">
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="y9w-DJ-ods">
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interface Builder is designable and animatable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUw-Y4-VWs">
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  ● Design can be used in the final app" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zel-uN-wff">
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCQ-Ol-e9o">
-                                <state key="normal" image="rea"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Uyq-83-D3w" firstAttribute="leading" secondItem="12E-9R-jtr" secondAttribute="leadingMargin" constant="45" id="D3y-Ra-Ixf"/>
-                            <constraint firstItem="YLc-7o-wCR" firstAttribute="top" secondItem="lCQ-Ol-e9o" secondAttribute="bottom" constant="30" id="inn-8H-wxC"/>
-                            <constraint firstItem="XrL-ES-QjR" firstAttribute="leading" secondItem="Uyq-83-D3w" secondAttribute="leading" id="sDj-BX-t9m"/>
-                            <constraint firstAttribute="trailing" secondItem="lCQ-Ol-e9o" secondAttribute="trailing" constant="30" id="vDq-YQ-AEt"/>
-                            <constraint firstItem="XrL-ES-QjR" firstAttribute="top" secondItem="Uyq-83-D3w" secondAttribute="bottom" constant="60" id="y2a-Ql-7xt"/>
-                            <constraint firstItem="Uyq-83-D3w" firstAttribute="top" secondItem="YJw-EI-LA6" secondAttribute="bottom" constant="90" id="zxD-fV-ET0"/>
-                        </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="58f-js-e18" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2943" y="3009"/>
-        </scene>
     </scenes>
     <resources>
         <image name="4S" width="888" height="1528"/>
@@ -3931,6 +4018,7 @@ in Interface Builder</string>
         <image name="Corner Radius" width="894" height="575"/>
         <image name="CornerDesignable" width="894" height="575"/>
         <image name="Framer-logo" width="468" height="451"/>
+        <image name="Google-Inbox" width="1098" height="662"/>
         <image name="Idea" width="225" height="250"/>
         <image name="Ken" width="400" height="266"/>
         <image name="NSView" width="894" height="575"/>

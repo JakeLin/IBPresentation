@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Material:
-    :commit: f4688bb97f199d47f8337da4ad4314cf3425c255
+    :commit: 01df8779d36de0277da57e64e0c6c662283dd1e3
     :git: https://github.com/CosmicMind/Material.git
 
 SPEC CHECKSUMS:
