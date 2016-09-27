@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		32AC8DEFEBA0809E7B8D6C53 /* Pods_IBPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB5F1192DD15FAAB8186125 /* Pods_IBPresentation.framework */; };
 		AE541B971D65A3C3008B0613 /* ProtocolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE541B961D65A3C3008B0613 /* ProtocolsViewController.swift */; };
+		AE688EC61D9A9D2B004A4105 /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE688EC51D9A9D2B004A4105 /* ButtonsViewController.swift */; };
+		AE688EC81D9A9E70004A4105 /* AnimatableRaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE688EC71D9A9E70004A4105 /* AnimatableRaisedButton.swift */; };
 		AEEB244E1D5C70C0008345F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB244D1D5C70C0008345F5 /* AppDelegate.swift */; };
 		AEEB24531D5C70C0008345F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEB24511D5C70C0008345F5 /* Main.storyboard */; };
 		AEEB24551D5C70C1008345F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEB24541D5C70C1008345F5 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		6EB04F1D9B2186EF4007264A /* Pods-IBPresentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBPresentation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBPresentation/Pods-IBPresentation.debug.xcconfig"; sourceTree = "<group>"; };
 		9CB5F1192DD15FAAB8186125 /* Pods_IBPresentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBPresentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE541B961D65A3C3008B0613 /* ProtocolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolsViewController.swift; sourceTree = "<group>"; };
+		AE688EC51D9A9D2B004A4105 /* ButtonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
+		AE688EC71D9A9E70004A4105 /* AnimatableRaisedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableRaisedButton.swift; sourceTree = "<group>"; };
 		AEEB244A1D5C70C0008345F5 /* IBPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEB244D1D5C70C0008345F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEEB24521D5C70C0008345F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				AEF900EC1D5E011E008C146E /* DesignerNewsViewController.swift */,
 				AE541B961D65A3C3008B0613 /* ProtocolsViewController.swift */,
 				AEFB091A1D688C8F008354E2 /* PokeBallViewController.swift */,
+				AE688EC51D9A9D2B004A4105 /* ButtonsViewController.swift */,
+				AE688EC71D9A9E70004A4105 /* AnimatableRaisedButton.swift */,
 				AEEB24511D5C70C0008345F5 /* Main.storyboard */,
 				AEEB24541D5C70C1008345F5 /* Assets.xcassets */,
 				AEEB24561D5C70C1008345F5 /* LaunchScreen.storyboard */,
@@ -218,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFB091B1D688C8F008354E2 /* PokeBallViewController.swift in Sources */,
+				AE688EC81D9A9E70004A4105 /* AnimatableRaisedButton.swift in Sources */,
 				AEEB244E1D5C70C0008345F5 /* AppDelegate.swift in Sources */,
+				AE688EC61D9A9D2B004A4105 /* ButtonsViewController.swift in Sources */,
 				AEF900ED1D5E011E008C146E /* DesignerNewsViewController.swift in Sources */,
 				AE541B971D65A3C3008B0613 /* ProtocolsViewController.swift in Sources */,
 			);
