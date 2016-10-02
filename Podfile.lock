@@ -4,22 +4,12 @@ PODS:
 
 DEPENDENCIES:
   - IBAnimatable
-  - Material (from `https://github.com/CosmicMind/Material.git`, branch `development`)
-
-EXTERNAL SOURCES:
-  Material:
-    :branch: development
-    :git: https://github.com/CosmicMind/Material.git
-
-CHECKOUT OPTIONS:
-  Material:
-    :commit: 01df8779d36de0277da57e64e0c6c662283dd1e3
-    :git: https://github.com/CosmicMind/Material.git
+  - Material
 
 SPEC CHECKSUMS:
   IBAnimatable: 5ac8e4c9f879e1840041362e41f7728bbbf16b35
-  Material: 61dcd49507c32d07c1557267ec360ce35bd0b1c5
+  Material: 0ee6fc85d5b5db6ad22afd3c59edccf21024714e
 
-PODFILE CHECKSUM: 4e2a14bb3333a54064be65454a20c3057ad3a749
+PODFILE CHECKSUM: 6708aef9e3b510342469e8c07f05708cf617974c
 
 COCOAPODS: 1.1.0.rc.2
