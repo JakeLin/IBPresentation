@@ -1,6 +1,8 @@
 # IBPresentation
 Slides made in Interface Builder with IBAnimatable for presentations in /dev/world and Yow Connected Conferences
 
+![iPad Pro](https://raw.githubusercontent.com/JakeLin/IBPresentation/master/Screenshots/iPad Pro.png)
+
 ## How to build
 
 1) Clone the repository
@@ -21,3 +23,7 @@ $ pod install
 ```bash
 $ open "IBPresentation.xcworkspace"
 ```
+
+## Storyboard
+![Storyboard](https://raw.githubusercontent.com/JakeLin/IBPresentation/master/Screenshots/Storyboard.png)
+

@@ -1266,7 +1266,7 @@ in Interface Builder</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6CC-Ra-Xsl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="613" y="6117"/>
+            <point key="canvasLocation" x="6032" y="4638"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ktP-0G-5Cr">
