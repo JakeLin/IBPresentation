@@ -3,13 +3,23 @@ PODS:
   - Material (2.0.0)
 
 DEPENDENCIES:
-  - IBAnimatable
+  - IBAnimatable (from `https://github.com/IBAnimatable/IBAnimatable`, branch `master`)
   - Material
+
+EXTERNAL SOURCES:
+  IBAnimatable:
+    :branch: master
+    :git: https://github.com/IBAnimatable/IBAnimatable
+
+CHECKOUT OPTIONS:
+  IBAnimatable:
+    :commit: 65def404cb10cd73d628febaa1bfb3f00c6edefa
+    :git: https://github.com/IBAnimatable/IBAnimatable
 
 SPEC CHECKSUMS:
   IBAnimatable: 5ac8e4c9f879e1840041362e41f7728bbbf16b35
   Material: 0ee6fc85d5b5db6ad22afd3c59edccf21024714e
 
-PODFILE CHECKSUM: 6708aef9e3b510342469e8c07f05708cf617974c
+PODFILE CHECKSUM: 58dea2c7207c2b1531f98f9dbcf76cf379cb6119
 
 COCOAPODS: 1.1.0.rc.2
