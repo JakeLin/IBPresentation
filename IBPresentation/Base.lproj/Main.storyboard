@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="89C-ll-tbp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="89C-ll-tbp">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -312,6 +312,10 @@ in Interface Builder</string>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="paper" translatesAutoresizingMaskIntoConstraints="NO" id="TgI-DK-boD" customClass="AnimatableImageView" customModule="IBAnimatable">
                                 <frame key="frameInset" minX="396" minY="198" width="232" height="489"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="REA Color Logo" translatesAutoresizingMaskIntoConstraints="NO" id="bc6-7n-5X3">
+                                <frame key="frameInset" minX="580" minY="160" width="96" height="96"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -745,7 +749,7 @@ in Interface Builder</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spot the difference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnV-c9-qDA">
-                                        <frame key="frameInset" minX="8" minY="24" width="231" height="35"/>
+                                        <frame key="frameInset" minX="50" minY="24" width="231" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -853,7 +857,7 @@ in Interface Builder</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spot the difference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKc-lY-7fz">
-                                        <frame key="frameInset" minX="8" minY="24" width="231" height="35"/>
+                                        <frame key="frameInset" minX="50" minY="24" width="231" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1229,7 +1233,7 @@ in Interface Builder</string>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" verticalHuggingPriority="251" text="- WWDC 2015 Section 233" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxY-GF-8Nj">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" verticalHuggingPriority="251" text="- WWDC 2016 Section 233" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxY-GF-8Nj">
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -3200,10 +3204,10 @@ in Interface Builder</string>
             </objects>
             <point key="canvasLocation" x="3286.5234375" y="3696.875"/>
         </scene>
-        <!--View Controller-->
+        <!--Pop View Controller-->
         <scene sceneID="xmM-ag-1x5">
             <objects>
-                <viewController id="Ehk-Pf-vAe" sceneMemberID="viewController">
+                <viewController id="Ehk-Pf-vAe" customClass="PopViewController" customModule="IBPresentation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PRi-7P-FRB"/>
                         <viewControllerLayoutGuide type="bottom" id="PaK-wy-kKY"/>
@@ -3238,6 +3242,9 @@ in Interface Builder</string>
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="popButtonDidTap:" destination="Ehk-Pf-vAe" eventType="touchUpInside" id="FHA-of-WLv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVN-TZ-u17">
                                 <frame key="frameInset" minX="140" minY="612" width="206" height="30"/>
@@ -3262,6 +3269,9 @@ in Interface Builder</string>
                         </userDefinedRuntimeAttributes>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="popButton" destination="gPn-Mn-ztz" id="BaG-2Z-gn7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7t-e4-PHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4340,7 +4350,7 @@ in Interface Builder</string>
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="89C-ll-tbp" customClass="AnimatableNavigationController" customModule="IBAnimatable" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sMI-Ld-Lm6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="sMI-Ld-Lm6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -5143,6 +5153,7 @@ in Interface Builder</string>
         <image name="POP for Android" width="894" height="575"/>
         <image name="Poke ball" width="168" height="168"/>
         <image name="Protocol Extension" width="894" height="575"/>
+        <image name="REA Color Logo" width="57" height="57"/>
         <image name="Sketch color picker" width="334" height="620"/>
         <image name="Sketch design" width="334" height="620"/>
         <image name="Sketch-logo" width="284" height="243"/>
