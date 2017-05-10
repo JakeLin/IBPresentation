@@ -1,7 +1,7 @@
 # IBPresentation
 Slides made in Interface Builder with IBAnimatable for presentations in /dev/world and Yow Connected Conferences
 
-![iPad Pro](https://raw.githubusercontent.com/JakeLin/IBPresentation/master/Screenshots/iPad Pro.png)
+![iPad Pro](https://raw.githubusercontent.com/JakeLin/IBPresentation/master/Screenshots/iPad%20Pro.png)
 
 ## How to build
 
